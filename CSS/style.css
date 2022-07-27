@@ -3,7 +3,7 @@ h2 {
 }
 
 a:visited {
-    color:yellowgreen;
+    color:rgb(57, 4, 57);
 }
 
 a:hover {
@@ -16,6 +16,23 @@ div {
 }
 
 body {
-    background-image: url("../images/stairs.jpg");
-
+    font-family: Futura, sans-serif;
+    text-align: center;
+    min-width: 300px;
+    background-image: url("../images/clouds.jpg");
 }
+.two {
+    border: 3px solid rgb(57, 4, 57);
+    box-shadow: 6px 6px 100px black;
+    margin: 30px 500px;
+    z-index: 2;
+    background-color: pink;
+}
+@media all and (max-width:780){
+        .two {
+        min-width: 280;
+        display: block;
+        width: 50%;
+        margin: 30px auto;
+        }
+    }
